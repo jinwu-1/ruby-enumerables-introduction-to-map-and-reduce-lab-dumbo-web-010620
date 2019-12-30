@@ -63,5 +63,5 @@ def reduce_to_all_false(source_array)
     return true if source_array[counter] === true
     counter += 1
   end
-  return true
+  return false
 end
